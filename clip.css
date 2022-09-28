@@ -88,17 +88,10 @@ h2{
         display: flex;
         flex-direction: column;
         margin-top: 50px;
-        color:hsl(210, 10%, 33%)
+        color:hsl(210, 10%, 33%);
+        width:50%
     }
-    .text>p{
-        text-align: start;
-        width:60%;
-        color: hsl(201, 11%, 66%);
-    }
-    .text>h4{
-        margin-left:-220px;
-           }
-    
+     
 .three3{
     text-align: center;
     width:560px;
@@ -194,15 +187,87 @@ ul li:hover{
     margin-left: 200px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 800px) {
+   .one1{
+    width:100%
+   }
+    .two2 {
+      width: 100%;
+    }
+    .three3 {
+      width: 100%;
+    }
+    .test {
+      width: 100%;
+    }
+    .chargesec {
+      flex-direction: column;
+    }
+    .ate8 {
+      font-size: 15px;
+      width: 100%;
+    }
+    .foot {
+      flex-direction: column;
+    }
+    .four4 {
+      text-align: center;
+      width: 100%;
+      font-size: 15px;
+    }
+    .laptop,.devices{
+        width: 60%;
+    }
+    .desktop{
+        display: flex;
+        flex-direction: column;
+    }
+    .laptop{
+        margin:0 auto;
+    }
+    .textp1,.textp2,.textp3{
+        width: 70%;
+        text-align: center;
+    }
+    .logo{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .logz{
+        width: 40%;
+        margin: auto;
+    }
+    .firms{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 40px auto -40px auto;
+    }
+    .firms>img{
+       margin: 0px 0px 20px 0px;
+       height: 80%;
+       width: 20%;
+    }
+    .buttons1,.buttons2{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn1,.btn2{
+        width: 60%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .socials{
+        display: flex;
+        margin: 20px auto;
+    }
+    .socials>ion-icon{
+        margin: auto 20px;
+    }
+  }
