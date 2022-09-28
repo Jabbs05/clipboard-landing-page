@@ -223,7 +223,7 @@ ul li:hover{
         flex-direction: column;
     }
     .laptop{
-        margin:10px auto;
+        margin:0 auto 30px auto;
     }
     .textp1,.textp2,.textp3{
         width: 70%;
