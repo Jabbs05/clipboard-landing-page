@@ -270,4 +270,7 @@ ul li:hover{
     .socials>ion-icon{
         margin: auto 20px;
     }
+     .text{
+        margin: auto;
+    }
   }
